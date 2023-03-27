@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -22,9 +23,20 @@
                 display: flex;
                 flex-direction:column;
             }
-        }
-    </style>
 
+        }
+        .link-container>a{
+          display: flex;
+          gap: 10px;
+          text-decoration: none;
+        }
+        th:nth-child(1),th:nth-child(2),td:nth-child(1),td:nth-child(2){
+          width: 25px;
+        
+        }
+
+    </style>
+ <link rel="stylesheet" href="./index.css">
 </head>
 <body>
     <nav class="navbar bg-light navbar-expand-lg">  
@@ -96,10 +108,10 @@
         </a>
       </div>
 
-      <div class="container-fluid">
-        <h2>Text title</h2>
+    <div class="container-fluid">
+        <h3>Text title</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id a quasi eveniet rem inventore? Voluptatem provident illo incidunt possimus ducimus neque aspernatur voluptatibus enim inventore ipsa dolor corporis a vero voluptas iusto at laudantium ut, velit autem placeat, facere ullam? Qui quasi eum corporis modi vel aliquid magnam sapiente totam!</p>
-      </div>
+      
 
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
@@ -114,7 +126,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -141,6 +153,277 @@
         </div>
       </div>
 
+      <div class="row my-5 mx-3">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+              <h3>Card Header</h3>
+              <img src="./card-image.png"  class="card-img-top" alt="">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h3 class="card-title"> Title</h3>
+                  <div class="card-subtitle">Sub title</div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione dolor consectetur, sit velit neque.</p>
+                  <button class="btn btn-primary">Go somewhere</button>
+                </li>
+                <li class="list-group-item">1st item</li>
+                <li class="list-group-item">2nd item</li>
+                <li class="list-group-item">
+                  <a href="#" cl>Card link</a>
+                  <a href="#">Another link</a>
+                </li>
+              </ul>
+            <div class="card-footer">Card footer</div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+              <h3>Card Header</h3>
+              <img src="./card-image.png"  class="card-img-top" alt="">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h3 class="card-title"> Title</h3>
+                  <div class="card-subtitle">Sub title</div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione dolor consectetur, sit velit neque.</p>
+                  <button class="btn btn-primary">Go somewhere</button>
+                </li>
+                <li class="list-group-item">1st item</li>
+                <li class="list-group-item">2nd item</li>
+                <li class="list-group-item">
+                  <a href="#" cl>Card link</a>
+                  <a href="#">Another link</a>
+                </li>
+              </ul>
+            <div class="card-footer">Card footer</div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+              <h3>Card Header</h3>
+              <img src="./card-image.png"  class="card-img-top" alt="">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h3 class="card-title"> Title</h3>
+                  <div class="card-subtitle">Sub title</div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione dolor consectetur, sit velit neque.</p>
+                  <button class="btn btn-primary">Go somewhere</button>
+                </li>
+                <li class="list-group-item">1st item</li>
+                <li class="list-group-item">2nd item</li>
+                <li class="list-group-item">
+                  <a href="#" cl>Card link</a>
+                  <a href="#">Another link</a>
+                </li>
+              </ul>
+            <div class="card-footer">Card footer</div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card">
+              <h3>Card Header</h3>
+              <img src="./card-image.png"  class="card-img-top" alt="">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <h3 class="card-title"> Title</h3>
+                  <div class="card-subtitle">Sub title</div>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ratione dolor consectetur, sit velit neque.</p>
+                  <button class="btn btn-primary">Go somewhere</button>
+                </li>
+                <li class="list-group-item">1st item</li>
+                <li class="list-group-item">2nd item</li>
+                <li class="list-group-item">
+                  <a href="#" cl>Card link</a>
+                  <a href="#">Another link</a>
+                </li>
+              </ul>
+            <div class="card-footer">Card footer</div>
+          </div>
+        </div>
+      </div>
+
+      <table class="table mx-5 table-responsive">
+        <thead>
+          <tr >
+            <th style="width: 20px;"> <input type="checkbox" class="form-check-input"/> </th>
+            <th style="width: 20px;">Title</th>
+            <th>Title</th>
+            <th>Title</th>
+            <th>Title</th>
+            <th>Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="width: 20px"> <input type="checkbox" class="form-check-input"/> </td>
+            <td style="width: 20px">
+              <span class="material-symbols-outlined">
+                more_vert
+                </span>
+            </td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>Text line</td>
+            <td>
+              <div class="link-container">
+                <a href="#"> Publish</a>
+                <a href="#"> Edit</a>
+                <a href="#"> Delete</a>
+              </div>
+            </td>
+          </tr>
+        
+        </tbody>
+       
+        
+      </table>
+
+      <div class="row g-2">
+        <h5>Bootstrap form</h5>
+        <div class="col-sm-6">
+          <input type="text" placeholder="First Name" class="form-control">
+        </div>
+        <div class="col-sm-6">
+          <input type="text" placeholder="First Name" class="form-control">
+        </div>
+        <div class="col">
+          <input type="email" placeholder="Email" id=""class="form-control">
+        </div>
+        <div class="col-12">
+          <input type="password" placeholder="password" id=""class="form-control">
+        </div>
+        <div class="col-12">
+          <input type="password" placeholder="confirm password" id="" class="form-control">
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
